@@ -1,2 +1,2 @@
 # Encriptador
-Este es un proyecto Realizado para programa One Oracle Next Education
+Este es un proyecto Realizado para el programa One Oracle Next Education
