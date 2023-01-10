@@ -12,7 +12,7 @@ function encriptarOdesencriptar(bandera) {
     if (texto == "") {
 
         alerta.style.visibility = "visible";
-        alerta.innerHTML = "por favor, ingrese un texto para encriptar";
+        alerta.innerHTML = "por favor, ingrese un texto para procesar";
         setTimeout(function () {
             alerta.style.visibility = "hidden";
         }, 3000);
