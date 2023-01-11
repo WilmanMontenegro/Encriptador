@@ -17,6 +17,19 @@ header {
 }
 h1 {
   font-size: 48px;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 22.5ch;
+  animation: typing 2s steps(20),
+  blink .5s infinite step-end alternate;
+  overflow: hidden;
+
+}
+@keyframes typing{
+  from{width: 0;}
+}
+@keyframes blink{
+  50%{border-color: transparent;}
 }
 
 section {
@@ -51,6 +64,7 @@ textarea{
   padding: 1em;
   border-radius: 9px;
   box-sizing: border-box;
+  border-style: none;
 }
 textarea:focus{
   outline-color: #6530D9;
